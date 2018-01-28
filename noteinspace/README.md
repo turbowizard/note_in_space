@@ -7,11 +7,11 @@ storage powered by [tinydb](https://github.com/msiemens/tinydb)
 * run tests with pytest:  
 `pytest -q noteinspace_test.py`
 ## Usage
-> `from noteinspace import NoteInSpace, Note`
-> `nis = NoteInSpace(storage_file='PATH/FILE_NAME.json')`
-> `some_note = Note(note_dict={'content': 'WOW'})`
-> `nis.insert_note(some_note)`
-> `nis.get_all_notes()`
+> `from noteinspace import NoteInSpace, Note`  
+> `nis = NoteInSpace(storage_file='PATH/FILE_NAME.json')`  
+> `some_note = Note(note_dict={'content': 'WOW'})`  
+> `nis.insert_note(some_note)`  
+> `nis.get_all_notes()`  
 ## Docs
 ### Note()
 init params: note_dict  

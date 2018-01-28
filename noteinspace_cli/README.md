@@ -22,4 +22,3 @@ commands:
 * nis_cli.py recent `count`  
 * nis_cli.py last
 * nis_cli.py wipe
-* 
